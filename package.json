@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "devcodo",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.7.10",
@@ -36,5 +36,9 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/@devcodo"
   }
 }
