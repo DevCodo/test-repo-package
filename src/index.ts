@@ -1,3 +1,3 @@
 import { myFun } from './atol'
 
-module.exports = { myFun }
+export default { myFun }

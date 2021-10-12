@@ -1,6 +1,6 @@
 {
   "name": "@devcodo/test-repo-package",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "repository": "https://github.com/DevCodo/test-repo-package",
   "files": [
@@ -39,6 +39,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/@devcodo"
+    "registry": "https://registry.npmjs.org"
   }
 }
