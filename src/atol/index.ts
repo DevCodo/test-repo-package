@@ -1,3 +1,3 @@
 export const myFun = (number: number) => {
-  return `${number} * 33: это очень хорошо`
+  return `${number} * 33: дубль 2`
 }
