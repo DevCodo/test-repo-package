@@ -15,17 +15,17 @@
     "noFallthroughCasesInSwitch": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": true,
     "isolatedModules": true,
-    "baseUrl": "./"
+    "module": "esnext",
+    "declaration": true,
+    "baseUrl": "./",
+    "outDir": "./dist"
   },
   "include": [
-    "src",
-    "**/*.ts",
-    "**/*.tsx"
+    "src/**/*",
   ],
   "exclude": [
     "node_modules"

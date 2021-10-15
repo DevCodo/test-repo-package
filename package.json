@@ -4,9 +4,10 @@
   "description": "",
   "repository": "https://github.com/DevCodo/test-repo-package",
   "files": [
-    "src"
+    "/dist"
   ],
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint:lint": "eslint --ext .js,.ts src --color --fix",
     "lint:pretify": "prettier --write \"src/**/*.{js,ts}\"",

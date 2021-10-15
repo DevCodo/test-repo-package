@@ -1,3 +1,3 @@
-export const myFun = (number: number): number => {
-  return number * 10
+export const myFun = (number: number) => {
+  return number * 33
 }

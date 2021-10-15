@@ -1,3 +1,6 @@
 import { myFun } from './atol'
+export type Fun = {
+  num1: number
+}
 
-export default { myFun }
+export { myFun }
