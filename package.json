@@ -13,7 +13,7 @@
     "lint:lint": "eslint --ext .js,.ts src --color --fix",
     "lint:pretify": "prettier --write \"src/**/*.{js,ts}\"",
     "lint": "run-s lint:pretify lint:lint",
-    "prepare": "npm run build"
+    "prepare": "npm run build && husky install"
   },
   "keywords": [],
   "author": "devcodo",
