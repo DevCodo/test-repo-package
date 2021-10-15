@@ -1,6 +1,3 @@
-import { myFun } from './atol'
-export type Fun = {
-  num1: number
-}
+import * as atolServices from './atol'
 
-export { myFun }
+export { atolServices }
