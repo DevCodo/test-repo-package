@@ -1,3 +1,5 @@
-export const myFun = (number: number) => {
-  return `${number} * 33: дубль 4`
+import { multiply } from 'lodash'
+
+export const myFun = (number1: number, number2: number) => {
+  return multiply(number1, number2)
 }

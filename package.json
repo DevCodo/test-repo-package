@@ -19,6 +19,7 @@
   "author": "devcodo",
   "license": "MIT",
   "devDependencies": {
+    "@types/lodash": "^4.14.175",
     "@types/node": "^16.7.10",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
@@ -42,5 +43,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
