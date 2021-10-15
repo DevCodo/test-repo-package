@@ -1,3 +1,3 @@
 import * as atolServices from './atol'
 
-export { atolService }
+export { atolService4 }
